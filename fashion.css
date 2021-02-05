@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*-- first Page --*/
+
+.first-Page {
+    background-image: url("Blonde-girl-fashion-gray-background_3840x2160.jpg");
+    background-size: cover;
+    height: 635px;
+    position: relative;
+}
+
+.first-Page h4 {
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
+.first-Page hr {
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 60px;
+    border: 1px solid;
+    width: 90%;
+    text-align: center;
+}
+
+.first-Page h1 {
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 60px;
+    display: inline;
+}
+
+.first-Page button {
+    position: absolute;
+    float: right;
+    margin: 530px 0px 0px 1142px;
+    font-size: 1.5rem;
+    border-radius: 20%;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+
+}
+
+.first-Page button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+/*-- Second Page --*/
+
+.Second-Page {
+    height: 635px;
+    background-color: #cfc8af;
+}
+
+.Second-Page .Second-Page2 {
+    background-image: url("./Grey-Background-1.png");
+    width: 80%;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.Second-Page2 h1 {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 150px;
+    font-size: 3rem;
+}
+
+.Second-Page-P01 {
+    display: inline-block;
+    margin-left: 60px;
+    padding: 7% 0;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.Second-Page-P02 {
+    display: inline-block;
+    margin-left: 50px;
+    color: black;
+    font-size: 1.3rem;
+}
+
+/*-- Third Page --*/
+
+.third-Page {
+    height: 635px;
+    background-color: #cfc8af;
+    position: relative;
+}
+
+.third-Page h1 {
+    display: inline-block;
+    position: absolute;
+    color: black;
+    transform: rotate(-90deg);
+    margin-top: 200px;
+    margin-left: -25px;
+    padding: 0;
+}
+
+.third-Page01 {
+    background-image: url("8c299c1177b1715200856ecb336600da.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 635px;
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.third-Page01 h3 {
+    text-align: center;
+    margin-top: 500px;
+    font-size: 2rem;
+}
+
+.third-Page02 {
+    background-image:
+        url("portrait-handsome-fashion-stylish-hipster-businessman-model-dressed-elegant-blue-suit-posing-gray-background-studio-glasses_158538-2116.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 635px;
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    margin-left: 40%;
+}
+
+.third-Page02 h3 {
+    text-align: center;
+    margin-top: 500px;
+    font-size: 2rem;
+}
+
+.third-Page03 {
+    background-image: url("49893293-full-length-of-a-young-caucasian-woman-on-gray-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 635px;
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    margin-left: 70%;
+}
+
+.third-Page03 h3 {
+    text-align: center;
+    margin-top: 500px;
+    font-size: 2rem;
+}
+
+.third-Page hr {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 10%;
+    width: 90%;
+}
+
+/* fourth Page */
+
+.fourth-Page {
+    height: 635px;
+    background-color: #cfc8af;
+    position: relative;
+    text-align: center;
+}
+
+.fourth-Page h1 {
+
+    color: black;
+    font-size: 2rem;
+    padding: 60px;
+}
+
+.fourth-Page div {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+
+.fourth-Page div img {
+    width: 300px;
+    height: 150px;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.fourth-Page div h2 {
+    margin: 20px;
+    color: black;
+    line-height: 1.5;
+}
+
+.fourth-Page div p {
+    color: black;
+    line-height: 1.5;
+}
+
+/* fifth Page */
+
+.fifth-Page {
+
+    background-image: url("./Fashion-girl-pose-gray-background_3840x2160.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 635px;
+    background-color: #cfc8af;
+    position: relative;
+
+}
+
+.fifth-Page h1 {
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 200px;
+    padding: 0;
+    margin-left: -60px;
+}
+
+.fifth-Page div {
+    position: absolute;
+    margin-top: 400px;
+    width: 600px;
+    display: flexbox;
+    margin-left: 30%;
+    justify-content: space-around;
+
+}
+
+.fifth-Page div span {
+    margin: 30px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
