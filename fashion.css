@@ -13,7 +13,7 @@ body {
 /*-- first Page --*/
 
 .first-Page {
-    background-image: url("Blonde-girl-fashion-gray-background_3840x2160.jpg");
+    background-image: url("./img/Blonde-girl-fashion-gray-background_3840x2160.jpg");
     background-size: cover;
     height: 635px;
     position: relative;
@@ -67,7 +67,7 @@ body {
 }
 
 .Second-Page .Second-Page2 {
-    background-image: url("./Grey-Background-1.png");
+    background-image: url("./img/Grey-Background-1.png");
     width: 80%;
     background-size: cover;
     height: 400px;
@@ -115,7 +115,7 @@ body {
 }
 
 .third-Page01 {
-    background-image: url("8c299c1177b1715200856ecb336600da.jpg");
+    background-image: url("./img/8c299c1177b1715200856ecb336600da.jpg");
     background-size: cover;
     background-position: center;
     height: 635px;
@@ -133,7 +133,7 @@ body {
 
 .third-Page02 {
     background-image:
-        url("portrait-handsome-fashion-stylish-hipster-businessman-model-dressed-elegant-blue-suit-posing-gray-background-studio-glasses_158538-2116.jpg");
+        url("./img/portrait-handsome-fashion-stylish-hipster-businessman-model-dressed-elegant-blue-suit-posing-gray-background-studio-glasses_158538-2116.jpg");
     background-size: cover;
     background-position: center;
     height: 635px;
@@ -150,7 +150,7 @@ body {
 }
 
 .third-Page03 {
-    background-image: url("49893293-full-length-of-a-young-caucasian-woman-on-gray-background.jpg");
+    background-image: url("./img/49893293-full-length-of-a-young-caucasian-woman-on-gray-background.jpg");
     background-size: cover;
     background-position: center;
     height: 635px;
@@ -221,7 +221,7 @@ body {
 
 .fifth-Page {
 
-    background-image: url("./Fashion-girl-pose-gray-background_3840x2160.jpg");
+    background-image: url("./img/Fashion-girl-pose-gray-background_3840x2160.jpg");
     background-position: center;
     background-size: cover;
     height: 635px;
@@ -253,4 +253,18 @@ body {
     text-align: left;
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.fifth-Page div a {
+    margin: 30px 30px 30px 45px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fifth-Page div a:hover {
+    background-color: #ffffff;
+    color: black;
 }
